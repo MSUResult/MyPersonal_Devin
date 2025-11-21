@@ -19,6 +19,8 @@ out/
 .DS_Store
 Thumbs.db
 
+
+.env
 # IDE / editor files
 .vscode/
 .idea/

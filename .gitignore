@@ -1,7 +1,10 @@
 # Node modules
 node_modules/
 
-# Environment variabl
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # Logs
 logs
