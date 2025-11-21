@@ -18,7 +18,7 @@ router.post(
   projectController.createProject
 );
 
-router.post("/all", authMiddleWare.authUser, projectController.getAllProject);
+router.get("/all", authMiddleWare.authUser, projectController.getAllProject);
 
 router.put(
   "/add-user",
@@ -32,5 +32,11 @@ router.put(
     .withMessage("Each user must be a string"),
   projectController.addUserToProject
 );
+
+
+router.get('/get-project/:projectId',
+    authMiddleWare.authUser,
+    projectController.getProjectById
+)
 
 export default router;

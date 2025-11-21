@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@layer base {
+/* @layer base {
   html,
   body,
   #root {
@@ -22,4 +22,4 @@
     rgba(255, 255, 255, 0.01)
   );
   backdrop-filter: blur(6px);
-}
+} */
